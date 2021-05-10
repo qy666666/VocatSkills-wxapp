@@ -1,0 +1,1 @@
+<view class="sechedule data-v-467fda2b"><view class="content data-v-467fda2b">内容区域</view><footer-bar vue-id="ed08278a-1" btns="{{btns}}" data-event-opts="{{[['^sendClickEvent',[['getClickEvent']]]]}}" bind:sendClickEvent="__e" class="data-v-467fda2b" bind:__l="__l"></footer-bar></view>

@@ -1,0 +1,1 @@
+<view>竞赛人员页面<footer-bar vue-id="dcd796ce-1" btns="{{btns}}" data-event-opts="{{[['^sendClickEvent',[['getClickEvent']]]]}}" bind:sendClickEvent="__e" bind:__l="__l"></footer-bar></view>

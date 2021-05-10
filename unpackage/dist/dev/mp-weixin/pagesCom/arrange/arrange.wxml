@@ -1,0 +1,1 @@
+<view>赛事安排模块<footer-bar vue-id="41ab5241-1" btns="{{btns}}" data-event-opts="{{[['^sendClickEvent',[['getClickEvent']]]]}}" bind:sendClickEvent="__e" bind:__l="__l"></footer-bar></view>

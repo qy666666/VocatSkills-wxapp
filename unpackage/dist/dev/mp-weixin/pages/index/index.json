@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "navigationStyle": "custom",
+  "navigationBarBackgroundColor": "#FD7B03",
+  "usingComponents": {
+    "status-bar": "/components/status-bar/status-bar",
+    "news-item": "/components/news-item/news-item",
+    "modules-list": "/components/modules-list/modules-list"
+  }
+}

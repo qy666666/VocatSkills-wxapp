@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "消息中心",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "footer-bar": "/components/footer-bar/footer-bar"
+  }
+}

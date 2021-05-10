@@ -1,0 +1,1 @@
+<view><view class="footer bg-white"><view class="btn text-center flex align-center justify-center ha"><block wx:for="{{btnList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><button data-event-opts="{{[['tap',[['nav',['$0'],[[['btnList','',index]]]]]]]}}" class="cu-btn bg-orange margin-lr-sm" bindtap="__e">{{item.text}}</button></block></view></view></view>

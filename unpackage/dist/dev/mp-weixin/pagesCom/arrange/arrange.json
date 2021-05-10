@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "赛事安排",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "footer-bar": "/components/footer-bar/footer-bar"
+  }
+}

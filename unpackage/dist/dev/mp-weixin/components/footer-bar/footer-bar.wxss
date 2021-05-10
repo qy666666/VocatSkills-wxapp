@@ -1,0 +1,11 @@
+
+.footer {
+	position: fixed;
+	height: 50px;
+	bottom: 0;
+	width: 750rpx;
+}
+.ha {
+	height: 100%;
+}
+

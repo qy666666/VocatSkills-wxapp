@@ -1,0 +1,1 @@
+<view>赛事一码通模块<block wx:if="{{ifShow}}"><tki-qrcode class="vue-ref" vue-id="972257ca-1" cid="qrcode2" val="第二个二维码" size="{{size}}" onval="{{onval}}" loadMake="{{loadMake}}" usingComponents="{{true}}" data-ref="qrcode2" data-event-opts="{{[['^result',[['qrR']]]]}}" bind:result="__e" bind:__l="__l"></tki-qrcode></block></view>

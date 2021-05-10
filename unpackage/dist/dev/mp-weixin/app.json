@@ -1,0 +1,82 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/community/community",
+    "pages/learn/learn",
+    "pages/elegant/elegant",
+    "pages/index/newsCenter/newsCenter",
+    "pages/index/msgCenter/msgCenter"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesCom",
+      "pages": [
+        "schedule/schedule",
+        "arrange/arrange",
+        "manual/manual",
+        "technical/technical",
+        "qrcode/qrcode",
+        "personnel/personnel",
+        "sitelayout/sitelayout",
+        "service/service",
+        "schedule/ceremony/ceremony",
+        "arrange/myEent/myEent",
+        "arrange/sitelayoutc/sitelayoutc"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FD7B03",
+    "backgroundColor": "#F1F1F1"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#FD7B03",
+    "backgroundColor": "#535151",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbars/index.png",
+        "selectedIconPath": "static/tabbars/index_selected.png"
+      },
+      {
+        "pagePath": "pages/learn/learn",
+        "text": "学习",
+        "iconPath": "static/tabbars/learn.png",
+        "selectedIconPath": "static/tabbars/learn_selected.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "static/tabbars/community.png",
+        "selectedIconPath": "static/tabbars/community_selected.png"
+      },
+      {
+        "pagePath": "pages/elegant/elegant",
+        "text": "风采",
+        "iconPath": "static/tabbars/elegant.png",
+        "selectedIconPath": "static/tabbars/elegant_selected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tabbars/mine.png",
+        "selectedIconPath": "static/tabbars/mine_selected.png"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "pagesCom"
+      ]
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

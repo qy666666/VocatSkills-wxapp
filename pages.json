@@ -1,0 +1,179 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#FD7B03"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/learn/learn",
+			"style": {
+				"navigationBarTitleText": "学习",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/elegant/elegant",
+			"style": {
+				"navigationBarTitleText": "赛事风采",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/newsCenter/newsCenter",
+			"style": {
+				"navigationBarTitleText": "新闻中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/msgCenter/msgCenter",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+
+	"subPackages": [{
+		"root": "pagesCom",
+		"pages": [{
+				"path": "schedule/schedule",
+				"style": {
+					"navigationBarTitleText": "赛程安排",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "arrange/arrange",
+				"style": {
+					"navigationBarTitleText": "赛事安排",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "manual/manual",
+				"style": {
+					"navigationBarTitleText": "竞赛须知",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "technical/technical",
+				"style": {
+					"navigationBarTitleText": "技术文件",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "qrcode/qrcode",
+				"style": {
+					"navigationBarTitleText": "赛事一码通",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "personnel/personnel",
+				"style": {
+					"navigationBarTitleText": "竞赛人员",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "sitelayout/sitelayout",
+				"style": {
+					"navigationBarTitleText": "场地布局",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "service/service",
+				"style": {
+					"navigationBarTitleText": "在线客服",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "schedule/ceremony/ceremony",
+				"style": {
+					"navigationBarTitleText": "开幕式/闭幕式",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "arrange/myEent/myEent",
+				"style": {
+					"navigationBarTitleText": "我的赛事",
+					"enablePullDownRefresh": false
+				}
+
+			},
+			{
+				"path": "arrange/sitelayoutc/sitelayoutc",
+				"style": {
+					"navigationBarTitleText": "赛事场地布局图",
+					"enablePullDownRefresh": false
+				}
+
+			}
+		]
+	}],
+	"preloadRule": {
+		"pages/index/index": {
+			"network": "all",
+			"packages": ["pagesCom"]
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FD7B03",
+		"backgroundColor": "#F1F1F1"
+	},
+	"tabBar": {
+		"color": "#FFFFFF",
+		"selectedColor": "#FD7B03",
+		"backgroundColor": "#535151",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbars/index.png",
+				"selectedIconPath": "static/tabbars/index_selected.png"
+
+			},
+			{
+				"pagePath": "pages/learn/learn",
+				"text": "学习",
+				"iconPath": "static/tabbars/learn.png",
+				"selectedIconPath": "static/tabbars/learn_selected.png"
+			},
+			{
+				"pagePath": "pages/community/community",
+				"text": "社区",
+				"iconPath": "static/tabbars/community.png",
+				"selectedIconPath": "static/tabbars/community_selected.png"
+			},
+			{
+				"pagePath": "pages/elegant/elegant",
+				"text": "风采",
+				"iconPath": "static/tabbars/elegant.png",
+				"selectedIconPath": "static/tabbars/elegant_selected.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/tabbars/mine.png",
+				"selectedIconPath": "static/tabbars/mine_selected.png"
+			}
+		]
+	}
+}
